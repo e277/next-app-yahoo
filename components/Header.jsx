@@ -8,11 +8,11 @@ const Header = () => {
             <Image
                 src={YahooLogo}
                 alt="yahoo_frontpage_en"
-                width={50}
+                width={120}
                 height={50}
-                className='absolute top-0 left-0'
+                className='absolute top-0 left-0 object-contain'
             />
-            <p className='text-lg font-semibold tracking-wide'>Help</p>
+            <p className='text-lg text-blue-400 tracking-wide'>Help</p>
         </div>
     )
 }
